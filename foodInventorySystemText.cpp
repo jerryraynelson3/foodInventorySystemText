@@ -81,7 +81,7 @@ void addItem()
     std::string expDate;
 
     std::cout << "Enter the item you would like to add: ";
-    std::cin >> item;
+    getline(std::cin, item);
     std::cout << "Enter the quantity of that item to add: ";
     std::cin >> quantity;
     std::cout << "Enter the expiration date of the item (mm/dd/yy): ";
